@@ -1,12 +1,21 @@
-*{
+$prymary: #181C25;
+$secundary: #202631;
+$clear: #EB4B3D;
+
+* {
     margin: 0;
     padding: 0;
 }
 
-.prymary{
-    background:#262626;
+header {
+    background-color: $prymary;
 }
 
-main{
-    background: #262626;
+.navbar-nav {
+    .nav-link {
+        color: $clear !important;
+        &:hover{
+            color: #fff !important;
+        }
+    }
 }
