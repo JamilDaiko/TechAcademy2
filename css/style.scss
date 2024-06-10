@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 $prymary: #181C25;
 $secundary: #202631;
 $clear: #EB4B3D;
+$font: "Work Sans", sans-serif;
+
 
 * {
     margin: 0;
@@ -9,13 +12,53 @@ $clear: #EB4B3D;
 
 header {
     background-color: $prymary;
+
+    .container-fluid {
+        .navbar-toggler {
+            color: #fff;
+            background-color: $clear;
+
+            .navbar-toggler-icon {
+                background-color: $clear;
+            }
+        }
+    }
 }
 
 .navbar-nav {
     .nav-link {
+        font-family: $font !important;
         color: $clear !important;
-        &:hover{
+
+        &:hover {
             color: #fff !important;
         }
     }
+}
+
+.d-flex {
+    .btn {
+        font-family: $font;
+        margin-left: 5px;
+        background-color: $clear;
+        color: #fff;
+        border: #fff;
+        &:hover{
+            background-color: #fff !important;
+            color: $clear;
+
+        }
+    }
+}
+
+
+main {
+    background-color: $secundary !important;
+    color: $clear;
+}
+
+footer {
+    background-color: $prymary;
+    color: $clear;
+    font-family: $font;
 }

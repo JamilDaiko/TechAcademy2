@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +7,43 @@
 header {
   background-color: #181C25;
 }
+header .container-fluid .navbar-toggler {
+  color: #fff;
+  background-color: #EB4B3D;
+}
+header .container-fluid .navbar-toggler .navbar-toggler-icon {
+  background-color: #EB4B3D;
+}
 
 .navbar-nav .nav-link {
+  font-family: "Work Sans", sans-serif !important;
   color: #EB4B3D !important;
 }
 .navbar-nav .nav-link:hover {
   color: #fff !important;
+}
+
+.d-flex .btn {
+  font-family: "Work Sans", sans-serif;
+  margin-left: 5px;
+  background-color: #EB4B3D;
+  color: #fff;
+  border: #fff;
+}
+.d-flex .btn:hover {
+  background-color: #fff !important;
+  color: #EB4B3D;
+}
+
+main {
+  background-color: #202631 !important;
+  color: #EB4B3D;
+}
+
+footer {
+  background-color: #181C25;
+  color: #EB4B3D;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
