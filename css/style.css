@@ -35,8 +35,11 @@ header .container-fluid .navbar-toggler .navbar-toggler-icon {
   color: #EB4B3D;
 }
 
-main {
+body {
   background-color: #202631 !important;
+}
+
+main {
   color: #EB4B3D;
 }
 
@@ -44,6 +47,30 @@ footer {
   background-color: #181C25;
   color: #EB4B3D;
   font-family: "Work Sans", sans-serif;
+}
+footer .containar .row .col-md-4 img {
+  width: 150px;
+}
+
+.card {
+  background-color: #181C25;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+}
+.card h5 {
+  color: #EB4B3D;
+}
+.card .card-body .btn {
+  font-family: "Work Sans", sans-serif;
+  margin-left: 5px;
+  background-color: #EB4B3D;
+  color: #fff;
+  border: #fff;
+  border-radius: 40px;
+}
+.card .card-body .btn:hover {
+  background-color: #fff !important;
+  color: #EB4B3D;
 }
 
 /*# sourceMappingURL=style.css.map */

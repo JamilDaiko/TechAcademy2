@@ -43,7 +43,8 @@ header {
         background-color: $clear;
         color: #fff;
         border: #fff;
-        &:hover{
+
+        &:hover {
             background-color: #fff !important;
             color: $clear;
 
@@ -51,9 +52,11 @@ header {
     }
 }
 
+body {
+    background-color: $secundary !important;
+}
 
 main {
-    background-color: $secundary !important;
     color: $clear;
 }
 
@@ -61,4 +64,37 @@ footer {
     background-color: $prymary;
     color: $clear;
     font-family: $font;
+    .containar{
+        .row{
+            .col-md-4{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    background-color: $prymary;
+    color: #fff;
+    font-family: $font;
+    h5{
+        color: $clear;
+    }
+    .card-body {
+        .btn {
+            font-family: $font;
+            margin-left: 5px;
+            background-color: $clear;
+            color: #fff;
+            border: #fff;
+            border-radius: 40px;
+            &:hover {
+                background-color: #fff !important;
+                color: $clear;
+
+            }
+        }
+    }
 }
