@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php?param=home">
+                <a class="navbar-brand" href="home">
                     <img src="imagens/image-removebg-preview (7) (1).png" alt="" width="120px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="index.php?param=home">HOME</a>
+                            <a class="nav-link active fw-bold" aria-current="page" href="home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="index.php?param=contato">CONTATO</a>
+                            <a class="nav-link active fw-bold" aria-current="page" href="contato">CONTATO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="index.php?param=quemsomos">QUEM SOMOS</a>
+                            <a class="nav-link active fw-bold" aria-current="page" href="quemsomos">QUEM SOMOS</a>
                         </li>
                     </ul>
                     <form class="d-flex">
