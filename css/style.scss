@@ -64,10 +64,11 @@ footer {
     background-color: $prymary;
     color: $clear;
     font-family: $font;
-    .containar{
-        .row{
-            .col-md-4{
-                img{
+
+    .containar {
+        .row {
+            .col-md-4 {
+                img {
                     width: 150px;
                 }
             }
@@ -79,9 +80,11 @@ footer {
     background-color: $prymary;
     color: #fff;
     font-family: $font;
-    h5{
+
+    h5 {
         color: $clear;
     }
+
     .card-body {
         .btn {
             font-family: $font;
@@ -90,6 +93,7 @@ footer {
             color: #fff;
             border: #fff;
             border-radius: 40px;
+
             &:hover {
                 background-color: #fff !important;
                 color: $clear;
@@ -99,12 +103,12 @@ footer {
     }
 }
 
-.containar{
-    .row{
-        .team-member{
-            img{
-                border-radius: 5px;
-            }
-        }
+.team-member{
+    h5{
+        font-family: $font;
+    }
+    p{
+        color: #fff;
+        font-family: $font;
     }
 }

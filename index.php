@@ -84,9 +84,9 @@
             <div class="col-md-4">
                 <h5>Navegação</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.php?param=home" class="text-white">Home</a></li>
-                    <li><a href="index.php?param=contato" class="text-white">Contato</a></li>
-                    <li><a href="index.php?param=quemsomos" class="text-white">Quem Somos</a></li>
+                    <li><a href="home" class="text-white">Home</a></li>
+                    <li><a href="contato" class="text-white">Contato</a></li>
+                    <li><a href="quemsomos" class="text-white">Quem Somos</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -101,7 +101,6 @@
         <div class="row mt-3">
             <div class="col text-center">
                 <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="text-white mr-3"><i class="fab fa-linkedin"></i></a>
             </div>

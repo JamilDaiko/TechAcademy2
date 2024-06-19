@@ -73,4 +73,12 @@ footer .containar .row .col-md-4 img {
   color: #EB4B3D;
 }
 
+.team-member h5 {
+  font-family: "Work Sans", sans-serif;
+}
+.team-member p {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
