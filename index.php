@@ -7,8 +7,9 @@
     <title>Nexus</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,16 +72,20 @@
         }
         ?>
     </main>
-   
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
-<footer class="text-white pt-4">
+<footer class="text-white pt-4" div data-aos="fade-up">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <a href="index.php?param=home"><img src="imagens/image-removebg-preview (7) (1).png" alt="" width="150px"></a>
-                </div>
+            </div>
             <div class="col-md-4">
                 <h5>Navegação</h5>
                 <ul class="list-unstyled">
@@ -112,4 +117,5 @@
         </div>
     </div>
 </footer>
+
 </html>

@@ -7,7 +7,7 @@ $game[1] = array(
     "id" => 1,
     "title" => "Monter Hunter",
     "description" => "jogo mais bem avaliado...",
-    "linkJogo" => "http://localhost/site_nexus/jogo/Jamil/index.html",
+    "linkJogo" => "1",
 
     "fotoCard" => "http://localhost/site_nexus/imagens/Cards1.jpg",
 );

@@ -58,6 +58,7 @@ body {
 
 main {
     color: $clear;
+    font-family: $font;
 }
 
 footer {
@@ -103,11 +104,28 @@ footer {
     }
 }
 
-.team-member{
-    h5{
+
+.btn {
+    font-family: $font;
+    background-color: $clear;
+    color: #fff;
+    border: #fff;
+
+    &:hover {
+        background-color: #fff !important;
+        color: $clear;
+    }
+
+}
+
+
+
+.team-member {
+    h5 {
         font-family: $font;
     }
-    p{
+
+    p {
         color: #fff;
         font-family: $font;
     }

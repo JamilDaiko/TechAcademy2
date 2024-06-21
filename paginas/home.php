@@ -47,7 +47,7 @@ foreach ($dadosApi as $jogo) {
         foreach ($dadosApi as $jogo) {
         ?>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-right">
                 <div class="card">
                     <img src="<?= $jogo->fotoCard ?>" class="card-img-top" alt="<?= $jogo->title ?>">
                     <div class="card-body">

@@ -41,6 +41,7 @@ body {
 
 main {
   color: #EB4B3D;
+  font-family: "Work Sans", sans-serif;
 }
 
 footer {
@@ -69,6 +70,17 @@ footer .containar .row .col-md-4 img {
   border-radius: 40px;
 }
 .card .card-body .btn:hover {
+  background-color: #fff !important;
+  color: #EB4B3D;
+}
+
+.btn {
+  font-family: "Work Sans", sans-serif;
+  background-color: #EB4B3D;
+  color: #fff;
+  border: #fff;
+}
+.btn:hover {
   background-color: #fff !important;
   color: #EB4B3D;
 }
