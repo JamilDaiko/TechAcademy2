@@ -5,41 +5,44 @@ header("Content-type: application/json; charset=utf-8");
 
 $game[1] = array(
     "id" => 1,
-    "title" => "Monter Hunter",
-    "description" => "jogo mais bem avaliado...",
-    "linkJogo" => "1",
+    "title" => "Monster Hunter",
+    "description" => "Em 'Monster Hunter', você é um caçador armado com uma escopeta calibre 12 enfrentando esqueletos e fantasmas em um mundo de plataformas desafiadoras.",
+    "linkJogo" => "https://nexusjj2.000webhostapp.com/jogo/Jamil/index.html",
 
-    "fotoCard" => "http://localhost/site_nexus/imagens/Cards1.jpg",
+    "fotoCard" => "https://nexusjj2.000webhostapp.com/imagens/Cards1.jpg",
 );
 $game[2] = array(
     "id" => 2,
     "title" => "Space Capway",
-    "description" => "jogo mais bem avaliado...",
-    "linkJogo" => "http://localhost/site_nexus/jogo/lucasFiori/index.html",
+    "description" => "
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec eleifend dolor. Donec porttitor luctus leo a placerat. Cras ac lacinia est. Praesent feugiat luctus nibh, ac tempor ex.",
+    "linkJogo" => "https://nexusjj2.000webhostapp.com/jogo/lucasFiori/index.html",
     
-    "fotoCard" => "http://localhost/site_nexus/imagens/Cards2.jpg",
+    "fotoCard" => "https://nexusjj2.000webhostapp.com/imagens/Cards2.jpg",
 );
 $game[3] = array(
     "id" => 3,
-    "title" => "Monter Hunter",
-    "description" => "jogo mais bem avaliado...",
-    "linkJogo" => "http://localhost/site_nexus/jogo/Lucas/index.html",
+    "title" => "Reaper Goblin",
+    "description" => "O jogo é inspirado no anime ' Goblin Slayer ',onde o protagonista teve uma infância conturbada ao presenciar seu vilarejo ser invadido por goblins",
+    "linkJogo" => "https://nexusjj2.000webhostapp.com/jogo/Lucas/index.html",
 
-    "fotoCard" => "http://localhost/site_nexus/imagens/Cards3.jpg",
+    "fotoCard" => "https://nexusjj2.000webhostapp.com/imagens/Cards3.jpg",
 );
 $game[4] = array(
     "id" => 4,
     "title" => "Encontre seu Caminho",
-    "description" => "jogo mais bem avaliado...",
+    "description" => "Encontre Seu Caminho é um jogo de aventura e ação onde o jogador assume o papel de John Lennon, um personagem que acorda em um local desconhecido.",
+    "linkJogo" => "https://nexusjj2.000webhostapp.com/jogo/Miguel/index.html",
 
-    "fotoCard" => "http://localhost/site_nexus/imagens/Cards4.jpg",
+    "fotoCard" => "https://nexusjj2.000webhostapp.com/imagens/Cards4.jpg",
 );
 $game[5] = array(
     "id" => 5,
-    "title" => "Monter Hunter",
-    "description" => "jogo mais bem avaliado...",
+    "title" => "Wanted",
+    "description" => "Wanted é um jogo de plataforma que pede ao jogador que resolva um problema, Wanted é um jogo single player com gráficos 2D, venha se divertir nessa jornada!",
+    "linkJogo" => "https://nexusjj2.000webhostapp.com/jogo/Matheus/index.html",
 
-    "fotoCard" => "http://localhost/site_nexus/imagens/Cards5.jpg",
+    "fotoCard" => "https://nexusjj2.000webhostapp.com/imagens/Cards5.jpg",
 );
 
 

@@ -36,12 +36,12 @@
                             <a class="nav-link active fw-bold" aria-current="page" href="contato">CONTATO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="quemsomos">QUEM SOMOS</a>
+                            <a  class="nav-link active fw-bold" aria-current="page" href="quemsomos">QUEM SOMOS</a>
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn fw-bold" type="submit">Entrar</button>
-                        <button class="btn fw-bold" type="submit">Cadastre</button>
+                        <button class="btn fw-bold" type="submit"><a class="nav-link active fw-bold" href="login">Entrar</a></button>
+                        <button class="btn fw-bold" type="submit"><a class="nav-link active fw-bold" href="cadastro">Cadastre</a></button>
                     </form>
                 </div>
             </div>
@@ -97,22 +97,23 @@
             <div class="col-md-4">
                 <h5>Contato</h5>
                 <ul class="list-unstyled">
-                    <li><i class="fas fa-map-marker-alt"></i> Endereço, Cidade, Estado</li>
-                    <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
-                    <li><i class="fas fa-envelope"></i> contato@exemplo.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua Simão Pereira 07, Campina da Lagoa, Parana</li>
+                    <li><i class="fas fa-phone"></i> (44) 998403-5623</li>
+                    <li><i class="fas fa-envelope"></i> juniordaiko2005@gmail.com</li>
                 </ul>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col text-center">
-                <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white mr-3"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/jamil.junior.1829" target="_blank" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/jj_daiko/" target="_blank" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jamil-josé-daiko-júnior-41bab3298/" target="_blank" class="text-white mr-3"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/JamilDaiko" target="_blank" class="text-white mr-3"><i class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col text-center">
-                <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Site feito por Jamil Junior. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>

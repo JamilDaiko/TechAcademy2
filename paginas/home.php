@@ -1,5 +1,5 @@
 <?php
-$api = file_get_contents("http://localhost/site_nexus/api/games.php");
+$api = file_get_contents("https://nexusjj2.000webhostapp.com/api/games.php");
 $dadosApi = json_decode($api);
 
 foreach ($dadosApi as $jogo) {

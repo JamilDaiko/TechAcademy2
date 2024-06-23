@@ -25,5 +25,10 @@
             <h5 class="mt-2 mb-0">Leoncio</h5>
             <p>Não fez nada</p>
         </div>
+        <div class="col-md-4 team-member">
+            <img src="imagens/meliante6.jpg" alt="Membro da Equipe" class="img-fluid rounded">
+            <h5 class="mt-2 mb-0">Matheus</h5>
+            <p>Criador do jogo "Wanted"</p>
+        </div>
     </div>
 </div>

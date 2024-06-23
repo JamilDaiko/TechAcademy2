@@ -93,4 +93,35 @@ footer .containar .row .col-md-4 img {
   font-family: "Work Sans", sans-serif;
 }
 
+.login-container {
+  font-family: "Work Sans", sans-serif;
+  background-color: #181C25;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.login-container .login-title {
+  margin-bottom: 1rem;
+}
+.login-container .login-title .form-control:focus {
+  box-shadow: none;
+}
+
+.register-container {
+  background-color: #181C25;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.register-container .register-title {
+  margin-bottom: 1rem;
+}
+.register-container .register-title .form-control:focus {
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */

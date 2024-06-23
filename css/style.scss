@@ -130,3 +130,38 @@ footer {
         font-family: $font;
     }
 }
+
+.login-container {
+    font-family: $font;
+    background-color: $prymary;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    .login-title {
+        margin-bottom: 1rem;
+
+        .form-control:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.register-container {
+    background-color: $prymary;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    .register-title {
+        margin-bottom: 1rem;
+
+        .form-control:focus {
+            box-shadow: none;
+        }
+    }
+}
